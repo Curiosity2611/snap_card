@@ -1,0 +1,18 @@
+Project: Snap Card
+
+
+   1. OSD32MP157F-512M-BAA  		- SiP (STM32MP157FAC1 - TFBGA361)
+   2. WFM200SS022XNA3(R)    		- WiFi Module
+   3. BGX220S22HNA21R       		- BLE 5.0 Module
+   4. S40FC004C1B2C00000    		- 4GB eMMC Memory
+   5. DF40C-70DP-0.4V(51)   		- Snap Peripheral Connectors
+   6. DF40C-24DP-0.4V(51)   		- Snap Power Connectors
+   7. ASDK2-32.768KHZ-LR-T3 		- 32.768KHz Oscillator 
+
+ 
+ 
+
+   
+
+
+    
