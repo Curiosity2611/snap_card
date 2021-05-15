@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name U_Connector)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Connector.lib)(options "")(descr ""))
+  (lib (name U_Memory_RAM)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Memory_RAM.lib)(options "")(descr ""))
+  (lib (name U_Memory_eMMC)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Memory_eMMC.lib)(options "")(descr ""))
+  (lib (name U_Microprocessor)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Microprocessor.lib)(options "")(descr ""))
+  (lib (name U_Power)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Power.lib)(options "")(descr ""))
+  (lib (name U_Power_Management)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Power_Management.lib)(options "")(descr ""))
+  (lib (name U_RF_Bluetooth)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_RF_Bluetooth.lib)(options "")(descr ""))
+  (lib (name U_RF_WiFi)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_RF_WiFi.lib)(options "")(descr ""))
+  (lib (name U_Oscillator)(type Legacy)(uri /home/deepak/my_workspaces/kicad_library/symbol_lib/U_Oscillator.lib)(options "")(descr ""))
+)

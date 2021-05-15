@@ -1,0 +1,39 @@
+************	SCHEMATIC CHECKLIST	***************
+Date: 07/05/2021
+Ref: OSD32MP15x Schematic Checklist by octavo systems.
+Ver: 1.0
+
+******	ESSENTIAL CONNECTIONS AND POWER DESIGN   *************
+
+**** Input Power Connections ****
+Choose power input use case based on the design requirements and  implement mandatory connections.
+
+VIN - Connect VIN pin to DC Power Supply. STPMIC1A supports an input voltage range of 2.8V to 5V. The default input voltage is 3.5V. In this case connect VIN to 5V from USB Type-C connector.
+
+PMIC_LDO25IN - PMIC_LDO2 is used to supply 3.3V for HDMI. PMIC_LDO5 pin is not connected but supplies power to Anlog domain (ADC/DAC/VREFBUF). Connect PMIC_LDO25IN to VIN. 
+
+**** In-Rush Current ****
+The power source connected to a power input must be able to supply the necessary in-rush current: ~0.25A for VIN.
+
+**** External Capacitance ****
+No other external decoupling capacitors are needed in this application use case. 
+
+**** IO Voltage ****
+OSD32MP1 supports both 1.8V and 3.3V I/O (Default: 3.3V I/O). For 1.8V I/O, set output voltage of BUCK3 (which supplies VDD power domain) to 1.8V. Refer Figure 31 and 32 of Getting Started with STM32MP1 Hardware Development application note.
+
+**** VBAT Operation ****
+Not used so Connect VBAT pin to VIN in this use case. 
+
+**** VDD pin connections ****
+Connect all the VDD pins together. 
+
+**** VDDA pin connections ****
+PMIC LDO5 output. Used to connect to VREF+ for reference voltage for ADC. 
+
+**** PMIC_PONKEY connection ****
+Add a push button on this pin to have the flexibilty of generating a manual turn-no condition. PMIC_PONKEYN is active low with internal pull-up. 
+
+**** BYPASS_REG1V8 connection ****
+Connect this pin to GND to enable the VDDA1V8_REG supply. 
+
+
